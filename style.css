@@ -117,6 +117,41 @@ a.soc:hover{
       text-align: center;
     }
   }
+
+  @media screen and (max-width:480px){
+    .profileimg{
+      display: block;
+    }
+    .top{
+      display: block;
+      background: linear-gradient(50deg, black, grey);
+      text-align: center;
+    }
+  }
+  @media screen and (max-width:767px){
+    .profileimg{
+      display: block;
+    }
+    .top{
+      display: block;
+      background: linear-gradient(50deg, black, brown);
+      text-align: center;
+    }
+  }
+  @media screen and (max-width:1025px){
+    .profileimg{
+      display: block;
+    }
+    .top{
+      display: block;
+      background: linear-gradient(50deg, black, grey);
+      text-align: center;
+    }
+    .profile-image{
+      width: 400px;
+      height: 400px;
+    }
+  }
   .cv{
     font-weight:bold;
   }
