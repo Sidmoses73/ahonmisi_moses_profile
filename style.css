@@ -134,7 +134,7 @@ a.soc:hover{
     }
     .top{
       display: block;
-      background: linear-gradient(50deg, black, brown);
+      background: linear-gradient(50deg, black, grey);
       text-align: center;
     }
   }
