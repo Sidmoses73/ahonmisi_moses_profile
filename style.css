@@ -1,0 +1,122 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 0 auto;
+}
+.top{
+    display: flex;
+    background: linear-gradient(50deg, blue, brown);
+    padding: 12px 14px;
+    height: 10%;
+}
+.contact{
+  flex-basis: 50%;
+  padding: 12px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.profile-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    flex-basis: 30%;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.profile-description{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-basis: 50%;
+
+}
+.social{
+    flex-basis: 20%;
+    padding: 12px;
+    word-spacing: 7px;
+    text-shadow: 2px 2px white;
+}
+a.soc:hover{
+    color: white;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.profileimg{
+    display: flex;
+}
+.profile-image{
+    flex-basis: 50%;
+    max-width: 100%;
+    height: auto;
+    flex: 0 1 170px;
+    flex-grow: 0px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    background-size: cover;
+    background: linear-gradient(40deg, grey, white);
+}
+.skills-section {
+    margin-bottom: 20px;
+  }
+  .skills-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .skill {
+    display: inline-block;
+    background-color: brown;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .progress-bar {
+    width: 100%;  /* Adjust the desired width of the progress bar */
+    height: 20px; /* Adjust the desired height of the progress bar */
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    flex-basis: 30%;
+    flex-direction:column;
+    
+  }
+  .progress {
+    height: 100%;
+    width: 0;
+    background-color:blue;
+    border-radius: 5px;
+    transition: width 0.5s;
+    color: white;
+  }
+  a{
+    text-decoration: none;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  a:hover{
+    color: black;
+  }
+  .footer{
+    padding: 12px 14px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  @media screen and (max-width:850px){
+    .profileimg{
+      display: block;
+    }
+    .top{
+      display: block;
+      background: linear-gradient(50deg, black, grey);
+      text-align: center;
+    }
+  }
+  .cv{
+    font-weight:bold;
+  }
