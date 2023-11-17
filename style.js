@@ -13,4 +13,4 @@ setProgress('progress7', 58);
 setProgress('progress8', 50);
 setProgress('progress9', 90);
 setProgress('progress10', 89);
-setProgress('progress10', 90);
+setProgress('progress11', 90);
